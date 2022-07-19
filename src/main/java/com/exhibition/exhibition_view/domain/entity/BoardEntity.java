@@ -12,7 +12,6 @@ import javax.persistence.*;
 @Entity
 @Table(name = "board")
 public class BoardEntity extends TimeEntity{
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
